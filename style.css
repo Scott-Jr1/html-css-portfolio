@@ -1,0 +1,33 @@
+.gradient-background {
+    background: linear-gradient(300deg, black, rgb(31, 30, 30), purple);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .eng {
+    text-decoration: underline;
+  }
+
+  h1 {
+    color: chartreuse;
+    font-family: "sacramento", cursive;
+  }
+
+  .border-radius {
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+    
